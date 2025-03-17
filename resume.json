@@ -1,9 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "theme": "jsonresume-theme-even",
   "basics": {
-    "name": "An Thân Thành",
+    "name": "An Than Thanh",
     "label": "Data Engineer | ML Engineer | Architecting Scalable AI & MLOps Systems",
-    "image": "profile_picture.jpg",
+    "image": "https://raw.githubusercontent.com/thanthanhan93/resume/refs/heads/main/resources/profile_picture.jpg",
     "email": "thanthanhan9101@gmail.com",
     "phone": "+49 17640449875",
     "url": "https://linkedin.com/in/thanthanhan",
@@ -84,7 +85,6 @@
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "EURECOM & Telecom ParisTech",
@@ -107,8 +107,6 @@
       "courses": []
     }
   ],
-  "awards": [],
-  "publications": [],
   "skills": [
     {
       "name": "Big Data & ML Systems",
@@ -161,7 +159,20 @@
       ]
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "language": "Vietnamese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional"
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner"
+    }
+  ],
   "interests": [
     {
       "name": "Emerging AI & Cost Optimization Initiatives",
@@ -175,12 +186,10 @@
       ]
     }
   ],
-  "references": [],
   "projects": [],
   "meta": {
     "canonical": "https://thanthanhan.github.io/resume",
     "version": "v1.0.0",
-    "lastModified": "2025-03-17",
-    "theme": "jsonresume-theme-professional"
+    "lastModified": "2025-03-17"
   }
 }
