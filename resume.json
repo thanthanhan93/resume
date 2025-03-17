@@ -1,164 +1,186 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Richard Hendriks",
-    "label": "Programmer",
-    "image": "",
-    "email": "richard.hendriks@mail.com",
-    "phone": "(912) 555-4321",
-    "url": "http://richardhendricks.example.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "name": "An Thân Thành",
+    "label": "Data Engineer | ML Engineer | Architecting Scalable AI & MLOps Systems",
+    "image": "profile_picture.jpg",
+    "email": "thanthanhan9101@gmail.com",
+    "phone": "+49 17640449875",
+    "url": "https://linkedin.com/in/thanthanhan",
+    "summary": "Results-driven Senior Data Engineer with 6+ years of experience in architecting scalable ML and data infrastructure. Expertise in MLOps, real-time data processing, and cost-optimized AI solutions. Proven leadership in designing high-impact data systems, reducing costs, and enhancing operational efficiency in the food delivery industry.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "10999",
+      "city": "Berlin",
+      "countryCode": "DE",
+      "region": "Berlin"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": "https://www.twitter.com"
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "LinkedIn",
+        "username": "thanthanhan",
+        "url": "https://linkedin.com/in/thanthanhan"
       }
     ]
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "Just Eat Takeaway",
+      "location": "Berlin, Germany",
+      "description": "",
+      "position": "Senior Data Engineer",
+      "url": "https://www.justeattakeaway.com/",
+      "startDate": "2022-10-01",
+      "summary": "Led redesign of ML inference pipelines, reducing cost by 91% and improving delivery frequency from weekly to daily. Architected a 4B-product ingestion system with 100M daily updates, cutting inference costs by 300-400x. Migrated ML pipelines to Vertex AI & Dataflow, reducing operational costs while improving scalability. Established comprehensive monitoring for Airflow clusters, improving pipeline success rate and anomaly detection. Mentored 10+ engineers on Vertex AI and BigQuery best practices.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Led redesign of ML inference pipelines, reducing cost by 91% and improving delivery frequency from weekly to daily.",
+        "Architected a 4B-product ingestion system with 100M daily updates, cutting inference costs by 300-400x.",
+        "Migrated ML pipelines to Vertex AI & Dataflow, reducing operational costs while improving scalability.",
+        "Established comprehensive monitoring for Airflow clusters, improving pipeline success rate and anomaly detection.",
+        "Mentored 10+ engineers on Vertex AI and BigQuery best practices."
       ]
     },
     {
-      "name": "Compression",
+      "name": "Just Eat Takeaway",
+      "location": "Berlin, Germany",
+      "description": "",
+      "position": "Data Engineer",
+      "url": "https://www.justeattakeaway.com/",
+      "startDate": "2020-07-01",
+      "endDate": "2022-10-01",
+      "summary": "Standardized AWS Terraform infrastructure, reducing provisioning time by 75%. Transitioned ML workloads to SageMaker serverless, cutting deployment time by 70%. Led migration from MySQL to Apache Hudi, improving upserts and incremental processing for large-scale data. Automated CI/CD workflows for ML models, reducing deployment cycles from days to hours.",
+      "highlights": [
+        "Standardized AWS Terraform infrastructure, reducing provisioning time by 75%.",
+        "Transitioned ML workloads to SageMaker serverless, cutting deployment time by 70%.",
+        "Led migration from MySQL to Apache Hudi, improving upserts and incremental processing for large-scale data.",
+        "Automated CI/CD workflows for ML models, reducing deployment cycles from days to hours."
+      ]
+    },
+    {
+      "name": "Just Eat Takeaway",
+      "location": "Berlin, Germany",
+      "description": "",
+      "position": "Data Scientist",
+      "url": "https://www.justeattakeaway.com/",
+      "startDate": "2019-04-01",
+      "endDate": "2020-07-01",
+      "summary": "Developed ML-driven alcohol detection system (94% accuracy), ensuring compliance across multiple regions. Designed structured food taxonomy, enhancing search accuracy and promotions.",
+      "highlights": [
+        "Developed ML-driven alcohol detection system (94% accuracy), ensuring compliance across multiple regions.",
+        "Designed structured food taxonomy, enhancing search accuracy and promotions."
+      ]
+    },
+    {
+      "name": "Delivery Hero",
+      "location": "Berlin, Germany",
+      "description": "",
+      "position": "Data Scientist",
+      "url": "https://www.deliveryhero.com/",
+      "startDate": "2018-11-01",
+      "endDate": "2019-04-01",
+      "summary": "Built AI-driven food classification models, optimizing search and recommendation performance.",
+      "highlights": [
+        "Built AI-driven food classification models, optimizing search and recommendation performance."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "EURECOM & Telecom ParisTech",
+      "url": "https://www.eurecom.fr/",
+      "area": "Data Science",
+      "studyType": "MSc",
+      "startDate": "2016",
+      "endDate": "2018",
+      "score": "4.0/4.0",
+      "courses": []
+    },
+    {
+      "institution": "University of Science",
+      "url": "https://hcmut.edu.vn/",
+      "area": "Computer Science",
+      "studyType": "BSc",
+      "startDate": "2012",
+      "endDate": "2016",
+      "score": "3.8/4.0",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Big Data & ML Systems",
       "level": "Master",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Vertex AI",
+        "MLflow",
+        "Apache Kafka",
+        "SageMaker",
+        "Airflow",
+        "Dataflow"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "Master",
+      "keywords": [
+        "AWS",
+        "GCP",
+        "Terraform",
+        "Kubernetes",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      "level": "Master",
+      "keywords": [
+        "BigQuery",
+        "Apache Hudi",
+        "MySQL",
+        "Kimball Dimensional Modeling"
+      ]
+    },
+    {
+      "name": "MLOps & Automation",
+      "level": "Master",
+      "keywords": [
+        "CI/CD (GitHub Actions, Jenkins)",
+        "Feature Engineering",
+        "Monitoring (Grafana)"
+      ]
+    },
+    {
+      "name": "Leadership & Mentoring",
+      "level": "Master",
+      "keywords": [
+        "Training teams on ML platforms",
+        "leading engineering initiatives"
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
+  "languages": [],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Emerging AI & Cost Optimization Initiatives",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "LLM production deployment strategies",
+        "Retrieval-Augmented Generation (RAG)",
+        "Agent-based architectures",
+        "LiteLLM",
+        "Instructor",
+        "Lunary"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "http://missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
-      ],
-      "entity": "Smoogle",
-      "type": "application"
-    }
-  ],
+  "references": [],
+  "projects": [],
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/sample.resume.json",
+    "canonical": "https://thanthanhan.github.io/resume",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2025-03-17",
+    "theme": "jsonresume-theme-professional"
   }
 }
