@@ -3,13 +3,14 @@
   "type": "module",
   "scripts": {
     "init": "resumed init",
-    "build": "resumed --theme jsonresume-theme-even --output index.html",
-    "export": "resumed export --theme jsonresume-theme-even --output resume.pdf"
+    "build": "resumed src/resume.json --theme jsonresume-theme-even --output index.html",
+    "export": "node src/exportpdf.js"
   },
   "dependencies": {
     "jsonresume-theme-even": "^0.23.0",
     "jsonresume-theme-modern2": "^0.0.20",
     "jsonresume-theme-straightforward": "^0.2.0",
+    "puppeteer": "^24.4.0",
     "resumed": "^4.1.0"
   }
 }

@@ -3,24 +3,29 @@
   "theme": "jsonresume-theme-even",
   "basics": {
     "name": "An Than Thanh",
-    "label": "Data Engineer | ML Engineer | Architecting Scalable AI & MLOps Systems",
+    "label": "Data Engineer | ML Engineer",
     "image": "https://raw.githubusercontent.com/thanthanhan93/resume/refs/heads/main/resources/profile_picture.jpg",
     "email": "thanthanhan9101@gmail.com",
     "phone": "+49 17640449875",
     "url": "https://linkedin.com/in/thanthanhan",
     "summary": "Results-driven Senior Data Engineer with 6+ years of experience in architecting scalable ML and data infrastructure. Expertise in MLOps, real-time data processing, and cost-optimized AI solutions. Proven leadership in designing high-impact data systems, reducing costs, and enhancing operational efficiency in the food delivery industry.",
     "location": {
-      "address": "",
+      "address": "Lausitzer Str. 51",
       "postalCode": "10999",
       "city": "Berlin",
       "countryCode": "DE",
-      "region": "Berlin"
+      "region": "Brandenburg"
     },
     "profiles": [
       {
         "network": "LinkedIn",
         "username": "thanthanhan",
         "url": "https://linkedin.com/in/thanthanhan"
+      },
+      {
+        "network": "GitHub",
+        "username": "thanthanhan",
+        "url": "https://github.com/thanthanhan"
       }
     ]
   },
