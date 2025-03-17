@@ -3,10 +3,13 @@
   "type": "module",
   "scripts": {
     "init": "resumed init",
-    "start": "resumed --theme jsonresume-theme-even"
+    "build": "resumed --theme jsonresume-theme-even --output index.html",
+    "export": "resumed export --theme jsonresume-theme-even --output resume.pdf"
   },
   "dependencies": {
-    "jsonresume-theme-even": "^0.17.0",
-    "resumed": "^3.0.0"
+    "jsonresume-theme-even": "^0.23.0",
+    "jsonresume-theme-modern2": "^0.0.20",
+    "jsonresume-theme-straightforward": "^0.2.0",
+    "resumed": "^4.1.0"
   }
 }
