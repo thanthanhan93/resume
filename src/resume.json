@@ -3,12 +3,12 @@
   "theme": "jsonresume-theme-even",
   "basics": {
     "name": "An Than Thanh",
-    "label": "Data Engineer | ML Engineer",
+    "label": "Senior Data Engineer | Scalable AI & MLOps Architect",
     "image": "https://raw.githubusercontent.com/thanthanhan93/resume/refs/heads/main/resources/profile_picture.jpg",
     "email": "thanthanhan9101@gmail.com",
     "phone": "+49 17640449875",
     "url": "https://linkedin.com/in/thanthanhan",
-    "summary": "Results-driven Senior Data Engineer with 6+ years of experience in architecting scalable ML and data infrastructure. Expertise in MLOps, real-time data processing, and cost-optimized AI solutions. Proven leadership in designing high-impact data systems, reducing costs, and enhancing operational efficiency in the food delivery industry.",
+    "summary": "Results-driven Senior Data Engineer with 6+ years of experience in architecting scalable ML and data infrastructure. Expertise in MLOps, batch data processing, and cost-optimized ML solutions. Proven leadership in designing high-impact data systems, reducing costs, and enhancing operational efficiency in the food delivery industry.",
     "location": {
       "address": "Lausitzer Str. 51",
       "postalCode": "10999",
@@ -37,13 +37,14 @@
       "position": "Senior Data Engineer",
       "url": "https://www.justeattakeaway.com/",
       "startDate": "2022-10-01",
-      "summary": "Led redesign of ML inference pipelines, reducing cost by 91% and improving delivery frequency from weekly to daily. Architected a 4B-product ingestion system with 100M daily updates, cutting inference costs by 300-400x. Migrated ML pipelines to Vertex AI & Dataflow, reducing operational costs while improving scalability. Established comprehensive monitoring for Airflow clusters, improving pipeline success rate and anomaly detection. Mentored 10+ engineers on Vertex AI and BigQuery best practices.",
       "highlights": [
-        "Led redesign of ML inference pipelines, reducing cost by 91% and improving delivery frequency from weekly to daily.",
-        "Architected a 4B-product ingestion system with 100M daily updates, cutting inference costs by 300-400x.",
-        "Migrated ML pipelines to Vertex AI & Dataflow, reducing operational costs while improving scalability.",
-        "Established comprehensive monitoring for Airflow clusters, improving pipeline success rate and anomaly detection.",
-        "Mentored 10+ engineers on Vertex AI and BigQuery best practices."
+        "Architected data ingestion system for 4B products with 100M daily updates, implementing hash-key approach that reduced ML inference costs by 400x and extended full-load cycles from monthly to quarterly",
+        "Engineered incremental ML inference pipeline with country-specific flexibility, reducing costs by 91% and accelerating data delivery from weekly to daily",
+        "Developed Kimball dimensional model for ML deliverables, decreasing downstream costs by 68% while enabling 60% immediate inference reuse",
+        "Led BigQuery optimization initiatives, achieving 30% cost reduction while improving query performance",
+        "Migrated ML pipelines from SageMaker to VertexAI/Dataflow, consolidating platforms and reducing operational costs",
+        "Built LLM experimentation platform with LiteLLM and MLflow, enabling rapid prototyping of classification and NER models",
+        "Mentored 10+ engineers on VertexAI and BigQuery analytics through Google incubator program"
       ]
     },
     {
@@ -54,12 +55,11 @@
       "url": "https://www.justeattakeaway.com/",
       "startDate": "2020-07-01",
       "endDate": "2022-10-01",
-      "summary": "Standardized AWS Terraform infrastructure, reducing provisioning time by 75%. Transitioned ML workloads to SageMaker serverless, cutting deployment time by 70%. Led migration from MySQL to Apache Hudi, improving upserts and incremental processing for large-scale data. Automated CI/CD workflows for ML models, reducing deployment cycles from days to hours.",
       "highlights": [
         "Standardized AWS Terraform infrastructure, reducing provisioning time by 75%.",
         "Transitioned ML workloads to SageMaker serverless, cutting deployment time by 70%.",
-        "Led migration from MySQL to Apache Hudi, improving upserts and incremental processing for large-scale data.",
-        "Automated CI/CD workflows for ML models, reducing deployment cycles from days to hours."
+        "Implemented end-to-end MLOps with Terraform, containerized testing, and automated CI/CD via GitHub Actions",
+        "Led migration from MySQL to Apache Hudi, improving upserts and incremental processing for large-scale data."
       ]
     },
     {
@@ -70,7 +70,6 @@
       "url": "https://www.justeattakeaway.com/",
       "startDate": "2019-04-01",
       "endDate": "2020-07-01",
-      "summary": "Developed ML-driven alcohol detection system (94% accuracy), ensuring compliance across multiple regions. Designed structured food taxonomy, enhancing search accuracy and promotions.",
       "highlights": [
         "Developed ML-driven alcohol detection system (94% accuracy), ensuring compliance across multiple regions.",
         "Designed structured food taxonomy, enhancing search accuracy and promotions."
@@ -84,7 +83,6 @@
       "url": "https://www.deliveryhero.com/",
       "startDate": "2018-11-01",
       "endDate": "2019-04-01",
-      "summary": "Built AI-driven food classification models, optimizing search and recommendation performance.",
       "highlights": [
         "Built AI-driven food classification models, optimizing search and recommendation performance."
       ]
@@ -114,53 +112,50 @@
   ],
   "skills": [
     {
-      "name": "Big Data & ML Systems",
-      "level": "Master",
+      "name": "AI & Machine Learning",
       "keywords": [
-        "Vertex AI",
-        "MLflow",
-        "Apache Kafka",
-        "SageMaker",
-        "Airflow",
-        "Dataflow"
+        "LLM",
+        "RAG Architecture",
+        "Feature Engineering"
       ]
     },
     {
-      "name": "Cloud & Infrastructure",
-      "level": "Master",
+      "name": "MLOps & Platform Engineering",
       "keywords": [
-        "AWS",
-        "GCP",
-        "Terraform",
-        "Kubernetes",
-        "Docker"
+        "Vertex AI",
+        "SageMaker",
+        "MLflow",
+        "CI/CD Pipelines (GitHub Actions, Jenkins)",
+        "Model Monitoring & Observability"
       ]
     },
     {
       "name": "Data Engineering",
-      "level": "Master",
       "keywords": [
+        "Airflow",
+        "Dataflow",
         "BigQuery",
         "Apache Hudi",
-        "MySQL",
-        "Kimball Dimensional Modeling"
+        "Data Lakehouse Architecture"
       ]
     },
     {
-      "name": "MLOps & Automation",
-      "level": "Master",
+      "name": "Cloud & DevOps",
       "keywords": [
-        "CI/CD (GitHub Actions, Jenkins)",
-        "Feature Engineering",
-        "Monitoring (Grafana)"
+        "AWS",
+        "GCP",
+        "Kubernetes",
+        "Docker",
+        "Terraform"
       ]
     },
     {
-      "name": "Leadership & Mentoring",
-      "level": "Master",
+      "name": "Business Impact & Optimization",
       "keywords": [
-        "Training teams on ML platforms",
-        "leading engineering initiatives"
+        "Cost Optimization",
+        "Performance Tuning",
+        "Data Strategy",
+        "Scalable AI Solutions"
       ]
     }
   ],
@@ -178,20 +173,21 @@
       "fluency": "Beginner"
     }
   ],
-  "interests": [
+  "projects": [],
+  "certificates": [
     {
-      "name": "Emerging AI & Cost Optimization Initiatives",
-      "keywords": [
-        "LLM production deployment strategies",
-        "Retrieval-Augmented Generation (RAG)",
-        "Agent-based architectures",
-        "LiteLLM",
-        "Instructor",
-        "Lunary"
-      ]
+      "name": "Certificate of competency in SQL",
+      "issuer": "LearnSQL.com"
+    },
+    {
+      "name": "Professional Data Engineer Certification",
+      "issuer": "Google"
+    },
+    {
+      "name": "Build a Data Warehouse with BigQuery Skill Badge",
+      "issuer": "Google"
     }
   ],
-  "projects": [],
   "meta": {
     "canonical": "https://thanthanhan.github.io/resume",
     "version": "v1.0.0",
