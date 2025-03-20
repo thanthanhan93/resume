@@ -2,13 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "theme": "jsonresume-theme-even",
   "basics": {
-    "name": "An Than Thanh",
-    "label": "Senior Data Engineer | Scalable AI & MLOps Architect",
+    "name": "An Than",
+    "label": "Senior Data Engineer | Scalable AI & MLOps",
     "image": "https://raw.githubusercontent.com/thanthanhan93/resume/refs/heads/main/resources/profile_picture.jpg",
     "email": "thanthanhan9101@gmail.com",
     "phone": "+49 17640449875",
     "url": "https://linkedin.com/in/thanthanhan",
-    "summary": "Results-driven Senior Data Engineer with 6+ years of experience in architecting scalable ML and data infrastructure. Expertise in MLOps, batch data processing, and cost-optimized ML solutions. Proven leadership in designing high-impact data systems, reducing costs, and enhancing operational efficiency in the food delivery industry.",
+    "summary": [
+      "Results-driven Senior Data Engineer with over 6 years of experience in designing and optimizing data flows for scalable machine learning systems. Demonstrated success in building incremental batch data processing, with a strong track record of delivering cost-effective ML solutions across AWS and GCP environments. Proven ability to enhance operational efficiency through data systems that contribute to significant cost reductions and improved performance."
+    ],
     "location": {
       "address": "Lausitzer Str. 51",
       "postalCode": "10999",
@@ -38,13 +40,14 @@
       "url": "https://www.justeattakeaway.com/",
       "startDate": "2022-10-01",
       "highlights": [
-        "Architected data ingestion system for 4B products with 100M daily updates, implementing hash-key approach that reduced ML inference costs by 400x and extended full-load cycles from monthly to quarterly",
-        "Engineered incremental ML inference pipeline with country-specific flexibility, reducing costs by 91% and accelerating data delivery from weekly to daily",
-        "Developed Kimball dimensional model for ML deliverables, decreasing downstream costs by 68% while enabling 60% immediate inference reuse",
-        "Led BigQuery optimization initiatives, achieving 30% cost reduction while improving query performance",
-        "Migrated ML pipelines from SageMaker to VertexAI/Dataflow, consolidating platforms and reducing operational costs",
-        "Built LLM experimentation platform with LiteLLM and MLflow, enabling rapid prototyping of classification and NER models",
-        "Mentored 10+ engineers on VertexAI and BigQuery analytics through Google incubator program"
+        "Led design of data flow system for 4B products with 100M daily updates, implementing hash-key approach and incremental processing that reduced ML costs by 400x and extended full-load cycles from monthly to quarterly.",
+        "Engineered incremental ML inference pipeline with country-specific flexibility and prevent redundant ML processing during upstream reloads, reducing costs by 91% and accelerating data delivery from weekly to daily.",
+        "Designed Kimball dimensional model for ML deliverables, replacing inefficient separate model tables, reducing downstream costs by 68% and enabling 60% immediate inference reuse.",
+        "Led BigQuery optimization initiatives, achieving 30% cost reduction while improving query performance.",
+        "Led initiatives to migrate ML pipelines from SageMaker/EMR Spark to VertexAI/Dataflow, consolidating platforms, reducing operational cost, eliminating cross-cloud data transfer costs.",
+        "Transitioned to DBT for SQL ETL, improving development and testing efficiency by 40% over Airflow operator.",
+        "Created LLM experimentation modules with LiteLLM, MLflow and LangFuse, enabling DS team to rapidly prototype classification and NER models with integrated prompt tracing and cost tracking for PoC deployment.",
+        "Mentored for 10+ engineers on VertexAI and BigQuery analytics through Google incubator program."
       ]
     },
     {
@@ -56,9 +59,9 @@
       "startDate": "2020-07-01",
       "endDate": "2022-10-01",
       "highlights": [
-        "Standardized AWS Terraform infrastructure, reducing provisioning time by 75%.",
-        "Transitioned ML workloads to SageMaker serverless, cutting deployment time by 70%.",
-        "Implemented end-to-end MLOps with Terraform, containerized testing, and automated CI/CD via GitHub Actions",
+        "Standardized AWS Terraform infrastructure with reusable modules ensuring consistency across environments, reducing provisioning time by 75%.",
+        "Transitioned ML workloads from EC2 to SageMaker serverless, cutting deployment time by 70%.",
+        "Implemented end-to-end MLOps with Terraform, containerized testing, and automated CI/CD via GitHub Actions.",
         "Led migration from MySQL to Apache Hudi, improving upserts and incremental processing for large-scale data."
       ]
     },
@@ -114,29 +117,36 @@
     {
       "name": "AI & Machine Learning",
       "keywords": [
+        "Embedding",
+        "Transformers",
         "LLM",
         "RAG Architecture",
         "Feature Engineering"
       ]
     },
     {
-      "name": "MLOps & Platform Engineering",
+      "name": "MLOps",
       "keywords": [
+        "Hugging Face",
         "Vertex AI",
         "SageMaker",
         "MLflow",
-        "CI/CD Pipelines (GitHub Actions, Jenkins)",
-        "Model Monitoring & Observability"
+        "Model Monitoring",
+        "Great Expectations"
       ]
     },
     {
       "name": "Data Engineering",
       "keywords": [
+        "Data Lake",
         "Airflow",
         "Dataflow",
         "BigQuery",
+        "MySQL",
         "Apache Hudi",
-        "Data Lakehouse Architecture"
+        "Prometheus",
+        "Grafana",
+        "DBT"
       ]
     },
     {
@@ -144,18 +154,21 @@
       "keywords": [
         "AWS",
         "GCP",
-        "Kubernetes",
+        "Terraform",
+        "GitHub Actions",
         "Docker",
-        "Terraform"
+        "Lambda/Cloud Function",
+        "Cost Optimization"
       ]
     },
     {
-      "name": "Business Impact & Optimization",
+      "name": "Soft skills",
       "keywords": [
-        "Cost Optimization",
-        "Performance Tuning",
+        "Results-Oriented",
         "Data Strategy",
-        "Scalable AI Solutions"
+        "Leadership & Initiative",
+        "Problem-solving",
+        "Team Enablement"
       ]
     }
   ],

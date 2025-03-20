@@ -15,7 +15,7 @@ await page.pdf({
   format: 'a4', 
   printBackground: true,
   margin: {
-    top: '10mm',
+    top: '5mm',
     left: '10mm',
     right: '10mm'
   }
