@@ -199,6 +199,22 @@
     {
       "name": "Build a Data Warehouse with BigQuery Skill Badge",
       "issuer": "Google"
+    },
+    {
+      "name": "AI Agents Fundamentals",
+      "issuer": "Hugging Face"
+    },
+    {
+      "name": "Manage Kubernetes in Google Cloud Skill Badge",
+      "issuer": "Google"
+    },
+    {
+      "name": "Implement Load Balancing on Compute Engine Skill Badge",
+      "issuer": "Google"
+    },
+    {
+      "name": "ACM Summer School on Recommender Systems",
+      "issuer": "Eindhoven University of Technology"
     }
   ],
   "meta": {
