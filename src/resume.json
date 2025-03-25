@@ -42,7 +42,7 @@
       "highlights": [
         "Led design of data flow system for 4B products with 100M daily updates, implementing hash-key approach and incremental processing that reduced ML costs by 400x and extended full-load cycles from monthly to quarterly.",
         "Engineered incremental ML inference pipeline with country-specific flexibility and prevent redundant ML processing during upstream reloads, reducing costs by 91% and accelerating data delivery from weekly to daily.",
-        "Designed Kimball dimensional model for ML deliverables, replacing inefficient separate model tables, reducing downstream costs by 68% and enabling 60% immediate inference reuse.",
+        "Designed denormalized fact table for ML deliverables, replacing inefficient separate model tables, reducing downstream costs by 68% and enabling 60% immediate inference reuse.",
         "Led BigQuery optimization initiatives, achieving 30% cost reduction while improving query performance.",
         "Led initiatives to migrate ML pipelines from SageMaker/EMR Spark to VertexAI/Dataflow, consolidating platforms, reducing operational cost, eliminating cross-cloud data transfer costs.",
         "Transitioned to DBT for SQL ETL, improving development and testing efficiency by 40% over Airflow operator.",
